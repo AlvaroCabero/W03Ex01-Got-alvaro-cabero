@@ -1,3 +1,4 @@
+import { Luchador, Asesor, } from export default Luchador;
 class Personaje {
   serie:GoT;
   nombre;
@@ -10,8 +11,8 @@ class Personaje {
     this.edad: age;
     this.alive: alive;
   }
-  comunicar(){
-    return
+  comunica(){
+   
   }
   morir(){
   this.alive: 0;

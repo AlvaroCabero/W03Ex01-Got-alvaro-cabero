@@ -5,6 +5,8 @@ class Rey extends Personaje{
     this.reinado
 }
   }
-comunica_rey(){
+comunica(){
   console.log ("Vais a morir todos");
 }
+
+export default Rey;
