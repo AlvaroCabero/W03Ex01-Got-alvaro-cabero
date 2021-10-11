@@ -15,7 +15,7 @@ module.exports = {
     "consistent-return": "off",
     "no-debugger": "off",
     "import/extensions": "off",
-    ""
+    "lines-between-class-members":"off",
     "no-console": "off",
   },
 

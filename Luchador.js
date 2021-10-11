@@ -1,3 +1,5 @@
+import Personaje from "./Personaje.js"
+
 class Luchador extends Personaje{
   arma;
   destreza;
@@ -8,6 +10,7 @@ class Luchador extends Personaje{
 } 
   }
 comunica(){
+  return super.comunicar() + "Primero pego y luego pregunto" 
   console.log ("Primero pego y luego pregunto");
 }
 

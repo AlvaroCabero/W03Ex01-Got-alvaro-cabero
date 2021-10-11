@@ -4,7 +4,9 @@ class Escudero extends Personaje{
   constructor(pelotism,boss ){
   super(name, family, age, alive){
     this.pelotismo = pelotism;
-    this.boss = boss;
+   
+   if (boss instanceof (Luchador)) 
+   {this.boss = boss;}
     
 } 
   }
