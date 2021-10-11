@@ -120,8 +120,6 @@ dist
 .DS_Store
 .prettierignore
 
-package-lock.json
-package.json
 
 //sonarqube
 .sonarworks
