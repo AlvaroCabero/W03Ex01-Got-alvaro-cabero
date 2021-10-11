@@ -1,18 +1,24 @@
-import { Luchador, Asesor, } from export default Luchador;
+
+
 class Personaje {
-  serie:GoT;
+  serie = "GoT";
   nombre;
-  familia;
+  static familia ={
+    Greyjoy: "casa greyjoy",
+    Targaryen: "casa Tagaryen",
+  };
   edad;
-  estado;
-  constructor(name, family, age, alive){
-    this.nombre: name;
-    this.familia: family;
-    this.edad: age;
-    this.alive: alive;
+  estado = true;
+  fraseTipo;
+
+  constructor(nombre, familia, edad){
+    this.nombre: nombre;
+    this.familia: familia;
+    this.edad: edad;
+
   }
   comunica(){
-   
+   return this.fraseTipo;
   }
   morir(){
   this.alive: 0;

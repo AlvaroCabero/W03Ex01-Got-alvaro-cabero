@@ -1,3 +1,4 @@
+var pepe = "k";
 class Asesor extends Personaje{
   asesorado;
   constructor(asesorado ){
