@@ -3,7 +3,10 @@ class Personaje {
   familia;
   edad;
   estado;
-  constructor(name, family){
-    this.nombre:
+  constructor(name, family, age, alive){
+    this.nombre: name;
+    this.familia: family;
+    this.edad: age;
+    this.alive: alive;
   }
 }
