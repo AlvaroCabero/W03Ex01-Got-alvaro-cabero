@@ -8,6 +8,16 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: "module",
   },
-  rules: {},
+  rules: {
+    "no-param-reassign": "off",
+    "no-plusplus": "off",
+    "no-restricted-syntax": "off",
+    "consistent-return": "off",
+    "no-debugger": "off",
+    "import/extensions": "off",
+    ""
+    "no-console": "off",
+  },
+
   parser: "@babel/eslint-parser",
 };
