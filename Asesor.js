@@ -6,6 +6,8 @@ class Asesor extends Personaje{
     
 } 
   }
-comunica_asesor(){
+comunica(){
   console.log ("No sé por qué, pero creo que voy a morir pronto");
 }
+
+export default Asesor;

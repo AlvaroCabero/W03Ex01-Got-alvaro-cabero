@@ -8,6 +8,8 @@ class Escudero extends Personaje{
     
 } 
   }
-comunica_escudero(){
+comunica(){
   console.log ("Soy un loser");
 }
+
+export default Escudero;

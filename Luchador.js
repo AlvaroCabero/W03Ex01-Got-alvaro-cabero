@@ -7,6 +7,8 @@ class Luchador extends Personaje{
     this.destreza = skill;
 } 
   }
-comunica_luchador(){
+comunica(){
   console.log ("Primero pego y luego pregunto");
 }
+
+export default Luchador;
